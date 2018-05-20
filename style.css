@@ -93,6 +93,20 @@ ul {
     font-family: 'Tajawal', sans-serif;
     text-align: center;
   }
+
+  .grid__item {
+    background: #fff;
+    color: inherit;
+    min-height: 300px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    padding: 45px 55px 30px;
+    position: relative;
+}
   
   .fa-eye {
     color: #ffffff;
