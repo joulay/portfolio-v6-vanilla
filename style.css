@@ -8,7 +8,7 @@ ul {
 
   .white-spacing {
     width: 100%;
-    margin-bottom: 87px;
+    margin-bottom: 85px;
   }
 
   .head {
@@ -25,7 +25,7 @@ ul {
   }
   
   header {
-    height: 62px;
+    height: 60px;
     width: 100%; 
     padding-top: 52px;
   }
@@ -51,7 +51,7 @@ ul {
   
   .socials ul li {
     display: inline-block;
-    margin-right: 19px;
+    margin-right: 20px;
   }
   
   .socials ul li a {
@@ -70,19 +70,19 @@ ul {
   
   .hero h1 {
     margin: 0;
-    padding-top: 242px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 48px;
-    font-weight: bold;
+    padding-top: 240px;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
     text-align: center;
     color: #ffffff;
   }
   
   .hero p {
     margin: 30px 0 0 0;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Tajawal', sans-serif;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 200;
     text-align: center;
     color: white;
   }
@@ -90,7 +90,7 @@ ul {
   .portfolio-container{
     width: 940px;
     margin: 0 auto;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Tajawal', sans-serif;
     text-align: center;
   }
   
@@ -117,59 +117,28 @@ ul {
   }
   
   .footer-stack h2,
-  .footer-stack p,
-  .footer-stack input[type=email],
-  .footer-stack input[type=submit] {
-    font-family: 'Source Sans Pro', sans-serif;
+  .footer-stack p {
+    font-family: 'Tajawal', sans-serif;
   }
   
   .footer-stack h2 {
     margin: 0;
     padding-top: 92px;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
     text-align: center;
     color: #ffffff;
   }
   
   .footer-stack p {
-    margin: 16px 0 38px 0;
+    margin: 15px 0 40px 0;
     font-size: 20px;
     font-weight: 400;
     text-align: center;
     color: #898989;
   }
   
-  .footer-stack input[type=email],
-  .footer-stack input[type=submit] {
-    outline: none;
-  }
-  
-  .footer-stack input[type=email] {
-    float: left;
-    height: 52px;
-    width: 597px;
-    padding-left: 22px;
-    border: transparent;
-    box-sizing: border-box;
-  }
-  
-  .footer-stack input[type=submit] {
-    float: right;
-    height: 52px;
-    width: 140px;
-    border: transparent;
-    text-transform: uppercase;
-    font-weight: 700;
-    background-color: #ffffff;
-    cursor: pointer;
-    box-sizing: border-box;
-  }
-  
-  .footer-stack input[type=submit]:hover {
-    border: none;
-    background-color: #696969;
-  }
+
   
   .block {
     width: 100%;
@@ -179,7 +148,7 @@ ul {
   .footer-things h5,
   .footer-things a,
   .footer-fav ul li a {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Tajawal', sans-serif;
     font-size: 16px;
     color: #ffffff;
   }
@@ -371,7 +340,7 @@ ul {
 
     .hero p {
       margin: 30px 0 0 0;
-      font-family: 'Source Sans Pro', sans-serif;
+      font-family: 'Tajawal', sans-serif;
       font-size: 20px;
       font-weight: 400;
       text-align: center;
