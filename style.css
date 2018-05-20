@@ -368,7 +368,15 @@ ul {
     .hero h1 {
       color: white;
     }
-  
+
+    .hero p {
+      margin: 30px 0 0 0;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      text-align: center;
+    }    
+
     .portfolio-container,
     .footer,
     .footer-container,
