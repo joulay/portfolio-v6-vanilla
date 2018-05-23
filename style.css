@@ -34,8 +34,14 @@ ul {
     float: left;
     display: inline-block;
     margin-left: 12px;
-    max-width: 100%;
-    height: 20vh;
+ 
+ 
+  }
+
+  #jklogo {
+    max-width: 33%;
+    margin-top: -70px;
+    margin-left: 10px;
   }
   
   .socials {
