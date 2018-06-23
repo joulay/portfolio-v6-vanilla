@@ -82,7 +82,7 @@ header {
 }
 
 .socials ul li a:hover {
-  color: #898989;
+  color: #afeeee;
 }
 
 .hero {
@@ -211,7 +211,7 @@ footer {
 
 .footer-things a:hover,
 .footer-fav a:hover {
-  color:#D1F2EB;
+  color:#afeeee ;
 }
 
 .footer-fav {
