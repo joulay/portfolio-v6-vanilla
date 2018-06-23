@@ -138,12 +138,12 @@ ul {
   
   .footer-stack h2,
   .footer-stack p {
-    font-family: 'Tajawal', sans-serif;
+    font-family: sans-serif;
   }
   
   .footer-stack h2 {
     margin: 0;
-    padding-top: 92px;
+    padding-top: 90px;
     font-size: 30px;
     font-weight: 700;
     text-align: center;
@@ -211,7 +211,7 @@ ul {
 
   #up-btn {
     position: fixed;
-    bottom: 10%;
+    bottom: 15%;
     left: 90%;
     display: none;
   }
@@ -228,7 +228,7 @@ ul {
     display: block;
   }
 
-  @media screen and (max-width: 348px) {
+  /* @media screen and (max-width: 348px) {
     .stats-block {
       display: block;
       width: 25%;
@@ -239,7 +239,7 @@ ul {
       display: block;
       margin: 0 auto;
     }
-  }
+  } */
   
   @media screen and (max-width: 599px) {
     .head {
