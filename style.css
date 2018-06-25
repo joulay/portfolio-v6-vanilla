@@ -4,6 +4,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: green;
 }
 
 hr {
@@ -135,6 +136,7 @@ header {
 .portfolio-block {
   padding: 1rem;
 }
+
 
 .grid__item {
   background: #fff;
