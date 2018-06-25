@@ -10,32 +10,32 @@ hr {
   width: 15%;
   height: 1px;
   border: 0;
-  border-top: 2px solid #E9F7EF  ;
-  padding: 0; 
+  border-top: 2px solid #e9f7ef;
+  padding: 0;
 }
 
 .header-title {
-  font-family: 'Comfortaa', cursive;;
+  font-family: "Comfortaa", cursive;
   padding: 4.5rem 2rem 3rem;
 }
 
 .p {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 .footer-title {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: white;
 }
 
 .title {
-  font-family: 'Roboto', sans-serif;
-  margin-bottom: .1rem;
-  color: #7DCEA0;  
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 0.1rem;
+  color: #7dcea0;
 }
 
 .category {
-  color: #ABB2B9;  
+  color: #abb2b9;
 }
 
 .white-spacing {
@@ -44,11 +44,11 @@ hr {
 }
 
 .head {
-    height: 862px;
-    background-image: url("http://thecodeplayer.com/u/m/b1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  height: 862px;
+  background-image: url("http://thecodeplayer.com/u/m/b1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .head-container {
   height: 862px;
@@ -57,17 +57,18 @@ hr {
 }
 
 header {
-  height: 60px;
-  width: 100%; 
-  padding-top: 52px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  align-items: flex-start; 
+  padding-top: 100px;
 }
 
 .logo {
-  float: left;
+  /*   float: left;
   display: inline-block;
-  margin-left: 12px;
-
-
+  margin-left: 12px; */
+  order: -1;
 }
 
 #jklogo {
@@ -77,14 +78,14 @@ header {
 }
 
 .socials {
-  display: inline-block;
-  float: right;
-  margin-top: 30px;
+  margin-top: 5px;
 }
 
 .socials ul {
   margin: 0;
   padding: 0;
+
+  display: flex;
 }
 
 .socials ul li {
@@ -103,13 +104,12 @@ header {
 .hero {
   height: 748px;
   width: 940px;
-  
 }
 
 .hero h1 {
   margin: 0;
-  padding-top: 200px;
-  font-family: 'Comfortaa';
+  padding-top: 150px;
+  font-family: "Comfortaa";
   font-size: 45px;
   font-weight: 600;
   text-align: center;
@@ -118,17 +118,17 @@ header {
 
 .hero p {
   margin: 30px 0 0 0;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 15px;
   font-weight: 200;
   text-align: center;
   color: white;
 }
 
-.portfolio-container{
+.portfolio-container {
   width: 940px;
   margin: 0 auto;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   text-align: center;
 }
 
@@ -154,8 +154,6 @@ header {
   max-width: 25%;
 }
 
-
-
 .fa-eye {
   color: #ffffff;
 }
@@ -179,11 +177,11 @@ footer {
 }
 
 .footer-stack h2 {
-  font-family: 'Comfortaa', cursive;
+  font-family: "Comfortaa", cursive;
 }
 
 .footer-stack p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .footer-stack h2 {
@@ -203,31 +201,31 @@ footer {
   color: #898989;
 }
 
-
-
 .block {
-  width: 100%;
+  width: 55%;
   height: 250px;
+  margin: 0 auto;
 }
 
 .footer-things h5,
 .footer-things a,
 .footer-fav ul li a {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 16px;
   color: #ffffff;
   display: block;
 }
 
 .footer-things {
-  float: left;
   display: block;
   line-height: 1.2em;
 }
 
 .footer-things h5 {
-  margin: 0;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
   font-weight: 400;
+  text-align: center;
 }
 
 .footer-things a {
@@ -237,14 +235,13 @@ footer {
 
 .footer-things a:hover,
 .footer-fav a:hover {
-  color:#A9DFBF;
+  color: #a9dfbf;
 }
 
 .footer-fav {
   display: inline-block;
-  float: right;
   position: relative;
-  width: 570px;
+  width: 100%;
 }
 
 .footer-fav ul {
@@ -263,7 +260,7 @@ footer {
 }
 
 #up-btn .fa {
-  color: #A2D9CE
+  color: #a2d9ce;
 }
 
 #footer:hover + #up-btn {
@@ -323,7 +320,7 @@ footer {
   .hero a {
     display: none;
   }
-  
+
   .portfolio-container {
     margin: 0 auto 40px auto;
   }
@@ -334,9 +331,9 @@ footer {
   .footer-things,
   .portfolio-container {
     width: 100%;
-  } 
+  }
 
-  .footer-stack  {
+  .footer-stack {
     margin-bottom: 15px;
     margin-bottom: 50px;
   }
@@ -364,7 +361,7 @@ footer {
     height: auto;
   }
 
-  .footer-fav ul li  {
+  .footer-fav ul li {
     text-align: center;
   }
 
@@ -396,7 +393,7 @@ footer {
   }
 
   .hero,
-  .services-container  {
+  .services-container {
     width: 100%;
   }
 
@@ -406,21 +403,21 @@ footer {
 
   .hero p {
     margin: 30px 0 0 0;
-    font-family: 'Comfortaa', cursive;
+    font-family: "Comfortaa", cursive;
     font-size: 13px;
     font-weight: 400;
     text-align: center;
-  }    
+  }
 
   .portfolio-container,
   .footer,
   .footer-container,
   .footer-stack,
-  .footer-things   {
+  .footer-things {
     width: 100%;
   }
 
-  .footer-stack  {
+  .footer-stack {
     margin-bottom: 15px;
     margin-bottom: 50px;
   }
@@ -443,7 +440,7 @@ footer {
     height: auto;
   }
 
-  .footer-fav ul li  {
+  .footer-fav ul li {
     text-align: center;
   }
 
