@@ -354,17 +354,17 @@ footer {
   }
 
   .footer-fav {
-    width: 96%;
+    width: 100%;
   }
 
   .footer-fav ul {
-    width: 24%;
+    width: 25%;
     float: left;
     height: auto;
   }
 
   .footer-fav ul li {
-    text-align: center;
+    text-align: left;
   }
 
   #up-btn {
