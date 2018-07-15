@@ -152,6 +152,10 @@ header {
   position: relative;
 }
 
+.meta__avatar {
+  max-width: 70%;
+}
+
 .meta__avatar_perfeggt {
   max-width: 25%;
 }
