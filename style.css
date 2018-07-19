@@ -153,7 +153,8 @@ header {
 }
 
 .meta__avatar {
-  max-width: 75%;
+  max-width: 60%;
+  filter: drop-shadow(1px 1px 15px #B0BEC5);
 }
 
 .meta__avatar_perfeggt {
