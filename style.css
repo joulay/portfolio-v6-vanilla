@@ -329,6 +329,11 @@ footer {
     display: none;
   }
 
+  .video {
+    width: 304;
+    height: 240;
+  }
+
   .portfolio-container {
     margin: 0 auto 40px auto;
   }
@@ -415,6 +420,11 @@ footer {
     font-size: 13px;
     font-weight: 400;
     text-align: center;
+  }
+
+  .video {
+    width: 448;
+    height: 288;
   }
 
   .portfolio-container,
