@@ -153,6 +153,11 @@ header {
   position: relative;
 }
 
+.link:hover {
+  color: #26C6DA;
+  
+}
+
 .meta__avatar {
   max-width: 60%;
   filter: drop-shadow(1px 1px 15px #B0BEC5);
