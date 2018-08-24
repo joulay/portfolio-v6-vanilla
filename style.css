@@ -4,7 +4,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: green;
+  color:#388E3C;
 }
 
 hr {
@@ -118,6 +118,40 @@ header {
   color: #ffffff;
 }
 
+.heading {
+  display: block;
+  animation-name: moveInTop; 
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes moveInTop {
+  0% {
+      opacity: 0; 
+      transform: translateY(-5rem);
+  }
+  100% {
+      transform: translate(0); 
+  }
+}
+
+
+@keyframes moveInBottom {
+  0% {
+      opacity: 0; 
+      transform: translateY(5rem);
+  }
+  100% {
+      transform: translate(0); 
+  }
+}
+.paragraph {
+  display: block;
+  animation-name: moveInBottom;
+  animation-duration: .5s;
+  animation-timing-function: ease-out;
+}
+
 .hero p {
   margin: 30px 0 0 0;
   font-family: "Nunito", sans-serif;
@@ -138,7 +172,6 @@ header {
   padding: 1rem;
 }
 
-
 .grid__item {
   background: #fff;
   color: inherit;
@@ -155,7 +188,6 @@ header {
 
 .link:hover {
   color: #26C6DA;
-  
 }
 
 .meta__avatar {
@@ -275,6 +307,7 @@ footer {
 #up-btn .fa {
   color: #a2d9ce;
 }
+
 
 #footer:hover + #up-btn {
   display: block;
