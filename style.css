@@ -47,7 +47,7 @@ hr {
 
 .head {
   height: 862px;
-  background-image: url("http://thecodeplayer.com/u/m/b1.png");
+  background-image: url("https://images.unsplash.com/photo-1496309732348-3627f3f040ee?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=14d1045387c8116077bf8725732e8cd7&auto=format&fit=crop&w=2250&q=80");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -208,7 +208,10 @@ header {
 }
 
 footer {
-  background-color: #010101;
+    /* height: 862px; */
+    background-image: url("https://images.unsplash.com/photo-1506868230452-d33b33d645e9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e982f7caae1ff37695bdd923d5d1863b&auto=format&fit=crop&w=2550&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .footer-container {
