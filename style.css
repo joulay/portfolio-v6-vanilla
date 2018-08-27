@@ -403,6 +403,14 @@ footer {
     margin-bottom: 50px;
   }
 
+  
+  .block {
+    width: 99%;
+    height: 250px;
+    margin: 0 auto;
+  }
+
+
   .footer-things,
   .footer-fav,
   .logo,
@@ -495,6 +503,12 @@ footer {
     margin-bottom: 30px;
   }
 
+  .block {
+    width: 99%;
+    height: 250px;
+    margin: 0 auto;
+  }
+  
   .footer-fav {
     display: block;
     width: 55%;
