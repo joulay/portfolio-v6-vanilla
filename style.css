@@ -22,6 +22,9 @@ hr {
 
 .p {
   font-family: "Nunito", sans-serif;
+  max-width: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-title {
