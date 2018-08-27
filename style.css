@@ -74,7 +74,7 @@ header {
 }
 
 .logo {
-  /*   float: left;
+  /* float: left;
   display: inline-block;
   margin-left: 12px; */
   order: -1;
@@ -132,25 +132,6 @@ header {
   animation-timing-function: ease-out;
 }
 
-@keyframes moveInTop {
-  0% {
-      opacity: 0; 
-      transform: translateY(-5rem);
-  }
-  100% {
-      transform: translate(0); 
-  }
-}
-
-@keyframes moveInBottom {
-  0% {
-      opacity: 0; 
-      transform: translateY(5rem);
-  }
-  100% {
-      transform: translate(0); 
-  }
-}
 .paragraph {
   display: block;
   animation-name: moveInBottom;
@@ -440,7 +421,7 @@ footer {
 
   #up-btn {
     left: 80%;
-    bottom: 40%;
+    bottom: 10%;
   }
 }
 
@@ -529,6 +510,26 @@ footer {
 
   #up-btn {
     left: 80%;
-    bottom: 40%;
+    bottom: 10%;
+  }
+}
+
+@keyframes moveInTop {
+  0% {
+      opacity: 0; 
+      transform: translateY(-5rem);
+  }
+  100% {
+      transform: translate(0); 
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+      opacity: 0; 
+      transform: translateY(5rem);
+  }
+  100% {
+      transform: translate(0); 
   }
 }
