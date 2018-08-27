@@ -473,11 +473,12 @@ footer {
   }
 
   .hero p {
-    margin: auto;
+    margin: 20px auto;
     font-family: "Comfortaa", cursive;
     font-size: 13px;
     font-weight: 400;
     text-align: center;
+    width: 80%;
   }
 
   .video {
@@ -508,7 +509,7 @@ footer {
     height: 250px;
     margin: 0 auto;
   }
-  
+
   .footer-fav {
     display: block;
     width: 55%;
