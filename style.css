@@ -127,25 +127,6 @@ header {
   animation-timing-function: ease-out;
 }
 
-@keyframes moveInTop {
-  0% {
-      opacity: 0; 
-      transform: translateY(-5rem);
-  }
-  100% {
-      transform: translate(0); 
-  }
-}
-
-@keyframes moveInBottom {
-  0% {
-      opacity: 0; 
-      transform: translateY(5rem);
-  }
-  100% {
-      transform: translate(0); 
-  }
-}
 .paragraph {
   display: block;
   animation-name: moveInBottom;
@@ -501,5 +482,25 @@ footer {
   #up-btn {
     left: 80%;
     bottom: 40%;
+  }
+}
+
+@keyframes moveInTop {
+  0% {
+      opacity: 0; 
+      transform: translateY(-5rem);
+  }
+  100% {
+      transform: translate(0); 
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+      opacity: 0; 
+      transform: translateY(5rem);
+  }
+  100% {
+      transform: translate(0); 
   }
 }
